@@ -57,14 +57,10 @@ nav ul a:hover {
 	color: #FFF;
 	}
 
-/* Give each section a different background color. 
-The id names are unique so styles here apply just 
-the section they name. */
 #nav {
 	background-color: #000;
 	}
 
-/* Style this section */
 #junji-ito {
     background-color: #fff;
 	background-image: url(images/junjiito.jpg);
@@ -79,7 +75,6 @@ the section they name. */
     }
 
 #junji-ito > div {
-/* Set position to relative so it can be moved */
 	position: relative;
 	top: 190px;
 	width: 1200px;
