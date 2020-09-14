@@ -62,30 +62,41 @@ the section they name. */
 /* Style this section */
 #junji-ito {
     background-color: #fff;
-	background-image: url(images/Junji_Ito.png);
+	background-image: url(images/junjiito.jpg);
 	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	font-family: Arial Black;
     letter-spacing: 3px;
-    font-size: 2em;
+    font-size: 20px;
 	color: #fff;
     }
 
 #junji-ito > div {
 /* Set position to relative so it can be moved */
 	position: relative;
-	top: 240px;
+	top: 195px;
+	width: 800px;
 	}
 
-#junji-ito h1 {
-    margin: 0;
-	font-size: 50px;
-	color: red;
-	text-shadow: 0 0 5px #000;
+#junji-ito h2 {
+	margin: 0;
+	padding: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 70px;
+	color: white;
+	text-shadow: 0 0 20px #000;
 	}
+
+#junji-ito p {
+	margin: 0;
+	padding: 10px;
+	font-size: 20px;
+	background-color: rgba(7, 7, 7, 0.8);
+	border-radius: 15px;
+}
 
 #manga {
 	background-color: #000;
@@ -103,13 +114,13 @@ the section they name. */
 	margin: 1em;
 	font-size: 3em;
 	text-align: center;
-	color: #eee;
+	color: #fff;
 	}
 
 .card {
 	width: 380px;
 	margin: 1em;
-	background-color: #eee;
+	background-color: red;
 	text-align: center;
 	}
 
@@ -128,7 +139,27 @@ the section they name. */
 
 #anime {
 	background-color: #FFF;
+	background-image: url(images/junjiitocollection.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	}
+
+#anime > div {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 60px;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	width: 75%;
+	max-width: 700px;
+	border-radius: 20px;
+}
+
+#anime h2 {
+	font-size: 50px;
+	text-align: center;
+}
 
 #interview {
 	background-color: #000;
